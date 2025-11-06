@@ -4,16 +4,14 @@ import jakarta.validation.constraints.*;
 
 public class ReceitaTO {
 
-    // O ID da Receita, geralmente Long para chaves primárias
     private Long idReceita;
 
     // ID da Consulta (Chave Estrangeira)
-    // Não pode ser nulo ao criar ou atualizar uma receita válida
     @NotNull(message = "O ID da Consulta é obrigatório")
     @Positive(message = "O ID da Consulta deve ser um valor positivo")
     private Long idConsulta;
 
-    // Descrição da Receita (Onde estava o 'remedioReceitado' + ajuste para a coluna 'descricao_receita')
+   
     @NotBlank(message = "A descrição da receita não pode estar vazia")
     @Size(max = 400, message = "A descrição não pode exceder 400 caracteres") // Limite conforme o SQL
     private String descricaoReceita;
