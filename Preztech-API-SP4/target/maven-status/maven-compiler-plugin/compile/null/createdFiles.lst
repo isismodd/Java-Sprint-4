@@ -1,9 +1,0 @@
-br\com\fiap\dao\ConnectionFactory.class
-br\com\fiap\to\ReceitaTO.class
-br\com\fiap\resource\ReceitaResource.class
-br\com\fiap\dao\ReceitaDAO.class
-br\com\fiap\bo\ConsultaBO.class
-br\com\fiap\to\ConsultaTO.class
-br\com\fiap\dao\ConsultaDAO.class
-br\com\fiap\bo\ReceitaBO.class
-br\com\fiap\resource\ConsultaResource.class
